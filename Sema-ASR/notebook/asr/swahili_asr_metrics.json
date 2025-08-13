@@ -1,0 +1,48 @@
+{
+    "wer": 0.33286875725900117,
+    "bleu": 0.43602103286537003,
+    "rouge1": 0.6715007443125831,
+    "rougeL": 0.6622443734172394,
+    "sentiment_sample": [
+        {
+            "label": "NEGATIVE",
+            "score": 0.9764275550842285
+        },
+        {
+            "label": "NEGATIVE",
+            "score": 0.9479898810386658
+        },
+        {
+            "label": "NEGATIVE",
+            "score": 0.9728851914405823
+        },
+        {
+            "label": "NEGATIVE",
+            "score": 0.9960208535194397
+        },
+        {
+            "label": "NEGATIVE",
+            "score": 0.9606323838233948
+        },
+        {
+            "label": "NEGATIVE",
+            "score": 0.9879475235939026
+        },
+        {
+            "label": "NEGATIVE",
+            "score": 0.9744491577148438
+        },
+        {
+            "label": "NEGATIVE",
+            "score": 0.991084098815918
+        },
+        {
+            "label": "NEGATIVE",
+            "score": 0.9822825193405151
+        },
+        {
+            "label": "NEGATIVE",
+            "score": 0.9930226802825928
+        }
+    ]
+}

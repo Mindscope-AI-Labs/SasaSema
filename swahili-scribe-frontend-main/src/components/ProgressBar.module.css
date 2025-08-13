@@ -1,0 +1,31 @@
+.progressBar {
+  position: relative;
+  height: 0.5rem;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 9999px;
+  background-color: hsl(var(--muted));
+}
+
+.progressBarFill {
+  height: 100%;
+  background-color: hsl(var(--primary) / 0.5);
+  border-radius: 9999px;
+  transition: all 300ms ease;
+  transform-origin: left center;
+  width: 100%;
+  transform: scaleX(0);
+}
+
+/* Progress states - using attribute selectors for better performance */
+.progressBarFill[data-progress="0"] { transform: scaleX(0); }
+.progressBarFill[data-progress="10"] { transform: scaleX(0.1); }
+.progressBarFill[data-progress="20"] { transform: scaleX(0.2); }
+.progressBarFill[data-progress="30"] { transform: scaleX(0.3); }
+.progressBarFill[data-progress="40"] { transform: scaleX(0.4); }
+.progressBarFill[data-progress="50"] { transform: scaleX(0.5); }
+.progressBarFill[data-progress="60"] { transform: scaleX(0.6); }
+.progressBarFill[data-progress="70"] { transform: scaleX(0.7); }
+.progressBarFill[data-progress="80"] { transform: scaleX(0.8); }
+.progressBarFill[data-progress="90"] { transform: scaleX(0.9); }
+.progressBarFill[data-progress="100"] { transform: scaleX(1); }
