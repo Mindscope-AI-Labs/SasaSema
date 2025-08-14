@@ -9,7 +9,9 @@ services:
       - "3000:80"
     environment:
       - NODE_ENV=production
-      - VITE_API_URL=http://backend:8000
+      - VITE_API_URL=https://sasasema.onrender.com
+      # - VITE_API_URL=http://backend:8000
+      
     depends_on:
       - backend
     networks:
